@@ -1,0 +1,150 @@
+/*   main.css
+     Assignment 1
+     Revision History
+        Jaden Ahn, 2018.01.27: Created
+*/
+
+/*body style*/
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #212121;
+}
+
+/*header style*/
+header
+{
+    height: 46px;
+}
+header h1
+{
+    font-size: 20px;
+    letter-spacing: .02em;
+    font-weight: 800;
+    color: #424242;
+    margin-top: 15px;
+}
+
+header h2
+{
+    display: block;
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 120%;
+}
+
+/*logo image style*/
+header img
+{
+    vertical-align: middle; 
+    display: inline-block;
+    width: 80px;
+}
+
+/*error message*/
+p i{
+    color:red;
+}
+
+.imgText{
+    vertical-align: middle; 
+    display: inline-block;
+}
+
+.right{
+    text-align:right;
+}
+
+/*Navigation Style*/
+#nav_bar
+{
+    background-color: #935347;
+    position: fixed;
+    float: right;
+    right:0;
+    top:2em;
+    box-shadow:0 1px 1px #565656;
+    border-radius: 10px 0 0 10px;
+}
+
+#nav_bar ul
+{
+	padding-left: 18px;
+}
+
+#nav_bar ul li
+{
+    display:inline;
+}
+
+#nav_bar ul li a, #nav_bar ul li a:visited
+{
+    float:left;
+    margin: auto;
+    padding: 0 10px 10px 0px;
+    text-shadow:0 1px 1px #565656;
+}
+
+#nav_bar a, #nav_bar a:visited
+{
+	color: #FFFFFF;
+	text-decoration:none;
+	outline:none;
+}
+
+#nav_bar a:hover
+{
+	color:#c7ad88;
+}
+
+/*main Style*/
+main
+{
+    height: 200px;
+    background-color: #64706c;
+    padding-top: 50px;
+}
+
+/*section style*/
+section
+{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 70%;
+    height: auto;
+    background-color: #ede9ce;
+    padding: 10px 28px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+section h2
+{
+    font-size: 34px;
+    font-weight: 400;
+    color: #424242;
+    margin-bottom: 0px;
+}
+
+/*footer style*/
+footer
+{
+    background-color: #64706c;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p
+{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 90%;
+}
+
+/*table style*/
+table th{
+    text-align: left;
+}
+
