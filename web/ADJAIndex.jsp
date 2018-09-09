@@ -8,9 +8,9 @@
 <section>
     <h2>Java Web Technologies: Section 1</h2>
     <p>Pair Programming Team:</p>
-    <h3>Assignment 1</h3>
-    <h3>Driver: Aubrey Delong</h3>
-    <h3>Observer: Jaden Ahn</h3>
+    <h3>Assignment 4</h3>
+    <h3>Driver: Jaden Ahn</h3>
+    <h3>Observer: Aubrey Delong</h3>
     <br>
     <p>Current Date and Time:</p>
     <h3><%= new java.util.Date() %></h3>
